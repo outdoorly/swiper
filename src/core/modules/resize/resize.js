@@ -1,4 +1,4 @@
-import { getWindow } from 'ssr-window';
+import { getWindow } from '../../../util/document.js';
 
 export default function Resize({ swiper, on, emit }) {
   const window = getWindow();

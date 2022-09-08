@@ -1,4 +1,4 @@
-import { getDocument } from 'ssr-window';
+import { getDocument } from '../util/document';
 
 export default function createElementIfNotDefined(swiper, originalParams, params, checkProps) {
   const document = getDocument();

@@ -1,4 +1,4 @@
-import { getWindow, getDocument } from 'ssr-window';
+import { getWindow, getDocument } from '../../util/document.js';
 import $ from '../../shared/dom.js';
 import { now } from '../../shared/utils.js';
 

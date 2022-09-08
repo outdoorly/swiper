@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return */
-import { getWindow } from 'ssr-window';
+import { getWindow } from '../../util/document';
 import $ from '../../shared/dom.js';
 import { now, nextTick } from '../../shared/utils.js';
 

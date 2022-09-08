@@ -1,4 +1,4 @@
-import { getWindow } from 'ssr-window';
+import { getWindow } from '../../util/document.js';
 import $ from '../../shared/dom.js';
 
 export default function loadImage(imageEl, src, srcset, sizes, checkForComplete, callback) {

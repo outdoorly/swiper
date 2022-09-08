@@ -1,5 +1,4 @@
 /* eslint no-param-reassign: "off" */
-import { getDocument } from 'ssr-window';
 import $ from '../shared/dom.js';
 import { extend, now, deleteProps } from '../shared/utils.js';
 import { getSupport } from '../shared/get-support.js';
@@ -22,6 +21,8 @@ import breakpoints from './breakpoints/index.js';
 import classes from './classes/index.js';
 import images from './images/index.js';
 import checkOverflow from './check-overflow/index.js';
+
+import { setChosenWindow, setChosenDocument, getDocument } from '../util/document.js';
 
 import defaults from './defaults.js';
 import moduleExtendParams from './moduleExtendParams.js';
@@ -659,6 +660,14 @@ class Swiper {
     }
     Swiper.installModule(module);
     return Swiper;
+  }
+
+  static setWindow(window) {
+    setChosenWindow(window);
+  }
+
+  static setDocument(document) {
+    setChosenDocument(document);
   }
 }
 

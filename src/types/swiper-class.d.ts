@@ -489,6 +489,10 @@ declare class Swiper implements Swiper {
    * Object with global Swiper extended options
    */
   static extendedDefaults: SwiperOptions;
+
+  static setWindow(window: Window): void;
+
+  static setDocument(document: Document): void;
 }
 
 export default Swiper;

@@ -1,4 +1,4 @@
-import { getDocument } from 'ssr-window';
+import { getDocument } from '../../util/document';
 import $ from '../../shared/dom.js';
 import { nextTick } from '../../shared/utils.js';
 import createElementIfNotDefined from '../../shared/create-element-if-not-defined.js';

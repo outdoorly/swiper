@@ -1,4 +1,4 @@
-import { getWindow } from 'ssr-window';
+import { getWindow } from '../util/document.js';
 
 function deleteProps(obj) {
   const object = obj;

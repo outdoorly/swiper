@@ -1,4 +1,4 @@
-import { getDocument } from 'ssr-window';
+import { getDocument } from '../../util/document.js';
 
 import onTouchStart from './onTouchStart.js';
 import onTouchMove from './onTouchMove.js';

@@ -1,4 +1,4 @@
-import { getWindow, getDocument } from 'ssr-window';
+import { getWindow, getDocument } from '../../util/document';
 import $ from '../../shared/dom.js';
 
 export default function HashNavigation({ swiper, extendParams, emit, on }) {

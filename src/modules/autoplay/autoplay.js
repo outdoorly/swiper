@@ -1,6 +1,6 @@
 /* eslint no-underscore-dangle: "off" */
 /* eslint no-use-before-define: "off" */
-import { getDocument } from 'ssr-window';
+import { getDocument } from '../../util/document';
 import { nextTick } from '../../shared/utils.js';
 
 export default function Autoplay({ swiper, extendParams, on, emit }) {

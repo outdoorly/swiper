@@ -1,4 +1,4 @@
-import { getWindow } from 'ssr-window';
+import { getWindow } from '../../util/document';
 import $ from '../../shared/dom.js';
 
 export default function Lazy({ swiper, extendParams, on, emit }) {

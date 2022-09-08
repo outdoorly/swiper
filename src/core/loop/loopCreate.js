@@ -1,4 +1,4 @@
-import { getDocument } from 'ssr-window';
+import { getDocument } from '../../util/document.js';
 import $ from '../../shared/dom.js';
 
 export default function loopCreate() {
